@@ -1,0 +1,209 @@
+html {
+    scroll-behavior: smooth;
+}   
+body{
+   background-color: #F9F7F7;
+}
+*{
+   margin: 0;
+}
+header{
+   background-color: #22092C;
+   position: fixed;
+}
+
+.sec1{
+   background-image: url(tesbihler.png);
+   width: 100%;
+   height: 800px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   
+}
+div{
+   display: inline-block;
+   
+}
+.div1 {
+   background: linear-gradient(to bottom right,rgb(102, 0, 51, 0.2),rgb(153, 51, 51, 0.2));
+   width: inherit;
+   height: inherit;
+   opacity: 30%;
+   position: static;
+}
+nav{
+   display: inline-block;
+   width: calc(100% - 161px);
+   text-align: right;
+   height: 50px;
+   vertical-align: top;
+}
+
+li{
+   display: inline-block;
+   width: 120px;
+   text-align: center;
+   
+}
+.logo{
+   font-size: 30px;
+   padding: 8px;
+   display: inline-block;
+   color: #F9F7F7;
+   text-decoration: none;
+   font-family: Georgia, 'Times New Roman', Times, serif   ;
+}
+.nav_a{
+   text-decoration: none;
+   color: #F9F7F7;
+   display: inline-block;
+   padding-top: 12px;
+   padding-bottom: 0px;
+   font-size: 20px;
+}
+li:hover{
+   background-color: #490000;
+   transition-duration: .6s;
+   cursor: pointer;
+}
+.div_foot{
+   width: 21%;
+   text-align: center;
+   height: 200px;
+   padding-left: 5%;
+   padding-right: 5%;
+   background-color: #F9F7F7;
+}
+footer p {
+   font-size: large;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+h1{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.ilan{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: #F9F7F7;
+   padding-top: 5%;
+   padding-left: 2%;
+   padding-right: 10%;
+}
+.buton{
+   margin-left: 2%;
+   margin-top: 2%;
+   background-color: #872341;
+   color: #F9F7F7;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   border-style: solid;
+   border-color: #872341;
+   border-radius: 10px;
+
+}
+button:hover{
+   background-color: #F9F7F7;
+   color: #872341;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   border-style: solid;
+   border-radius: 10px;
+   border-color: #872341;
+   cursor: pointer;
+   transition-duration: .6s;
+}
+.urunler{
+   width: 61%;
+   margin-right: 19%;
+   margin-left: 19%;
+   height: 1000px;
+   background-color: #F9F7F7;
+}
+.urun1{
+   width: 22%;
+   background-color: #87234163;
+   height: 600px;
+   float: left;
+   margin: 5px;
+   margin-top: 20px;
+   padding-left: 4%;
+   padding-right: 4%;
+   border-radius: 8px;
+   box-shadow: 3px 3px 10px;
+   transition-duration: 0.3s;
+}
+.urun1:hover{
+   transform: translateY(-10px);
+}
+.urun2{
+   width: 22%;
+   background-color: #87234163;
+   margin: 5px;
+   margin-top: 20px;
+   padding-left: 4%;
+   padding-right: 4%;
+   margin-left: 45px;
+   border-radius: 8px;
+   box-shadow: 3px 3px 10px;
+   position: static;
+   right: 8px;
+   transition-duration: 0.3s;
+}
+.urun2:hover{
+   transform: translateY(-10px);
+}
+.urun3{
+   width: 22%;
+   background-color: #87234163;
+   height: 600px;
+   float: right;      
+   margin: 5px;
+   margin-top: 20px;
+   padding-left: 4%;
+   padding-right: 4%;
+   border-radius: 8px;
+   box-shadow: 3px 3px 10px;
+   transition-duration: 0.3s;
+
+}
+.urun3:hover{
+   transform: translateY(-10px);
+}
+img{
+   width: 225px;
+   height: 250px;
+   display: inline-block;
+}
+.clearfix::after{
+   clear: both;
+   display: block;
+   content:"";}
+footer{
+   background-color: #22092C;
+   height: 200px;
+   width: 100%;
+   text-align: center;
+}
+.f_div1{
+   text-decoration: none;
+   float: left;
+   margin: 90px;
+}
+.f_div2{
+   text-decoration: none;
+   float: right;
+   margin: 80px;
+}
+.f_a{
+   color: #F9F7F7;
+   text-decoration: none;
+   display: inline-block;
+   margin-right: 10px;
+   margin-left: 10px;
+}
+.f_a:hover{
+   color: #872341;
+}
+i{
+   margin: 20px;
+}
